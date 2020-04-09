@@ -164,7 +164,7 @@
   font-weight: bold;
 }
 
-.section__title {
+.section-title {
   display: flex;
   justify-content: center;
   margin-top: 0px;
@@ -175,7 +175,7 @@
   font-weight: bold;
 }
 
-.section__subtitle {
+.section-subtitle {
   display: flex;
   justify-content: center;
   margin-top: 0px;
@@ -264,7 +264,7 @@
   text-decoration: none;
 }
 
-.section__title_theme_dark {
+.section-title_theme_dark {
   margin-top: 90px;
   margin-bottom: 20px;
   width: 60%;
@@ -276,7 +276,7 @@
   font-weight: bold;
 }
 
-.section__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   display: flex;
   color: white;
   width: 60%;
