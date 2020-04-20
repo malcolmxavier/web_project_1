@@ -1,0 +1,11 @@
+@import url("../two-columns/two-columns.css");
+
+.oakley {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding-top: 160px;
+  padding-left: auto;
+  padding-bottom: 0px;
+  padding-right: auto;
+}

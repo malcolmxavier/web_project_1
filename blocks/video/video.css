@@ -1,0 +1,23 @@
+@import url("../section-title/section-title.css");
+
+@import url("../section-title/_video/section-title_video.css");
+
+@import url("../section-subtitle/section-subtitle.css");
+
+@import url("../section-subtitle/_video/section-subtitle_video.css");
+
+@import url("./__iframes/video__iframes.css");
+
+@import url("./__iframe/video__iframe.css");
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-right: auto;
+  padding: 0;
+}

@@ -1,0 +1,13 @@
+@import url("../__column-link/footer__column-link.css");
+
+.footer__column-links {
+  padding-left: 0;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  list-style: none;
+  transition: opacity 1s linear 2s;
+}
+
+.footer__column-links:hover {
+  opacity: 0.5;
+}

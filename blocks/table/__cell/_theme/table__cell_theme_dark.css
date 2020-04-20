@@ -1,0 +1,12 @@
+@import url("../__heading/_theme/table__heading_theme_dark");
+
+@import url("../__text/_theme/table__text_theme_dark");
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap
+}

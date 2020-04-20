@@ -1,0 +1,21 @@
+@import url("../__image/cards__image.css");
+
+@import url("../__title/cards__title.css");
+
+@import url("../__description/cards__description.css");
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  width: 240px;
+  margin: 0px;
+}
+
+.cards__item:last-of-type {
+  margin-right: 340px;
+}

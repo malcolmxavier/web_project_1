@@ -1,0 +1,7 @@
+@import url("../__book-pic/khan__book-pic.css");
+
+@import url("../__buy-link/khan__buy-link.css");
+
+.khan__book-container {
+  display: flex;
+}
