@@ -1,15 +1,3 @@
-@import url("../section-title/section-title.css");
-
-@import url("../section-title/_theme/section-title_theme_dark.css");
-
-@import url("../section-subtitle/section-subtitle.css");
-
-@import url("../section-subtitle/_theme/section-subtitle_theme_dark.css");
-
-@import url("../table/table.css");
-
-@import url("../table/_theme/table_theme_dark.css");
-
 @import url("./__triangle/kaufman__triangle.css");
 
 .kaufman {
@@ -19,6 +7,9 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin: 0px;
   padding-top: 90px;
+  padding-left: 0px;
   padding-bottom: 90px;
+  padding-right: 0px;
 }

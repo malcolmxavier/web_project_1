@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="pages/index.css">
   <title>Learning how to learn</title>
 </head>
 <body class="page">
@@ -28,8 +28,8 @@
       </section>
 
       <section class="techniques">
-        <h2 class="section-title section-title_techniques">Learning Techniques</h2>
-        <p class="section-subtitle section-subtitle_techniques">Five Strategies from Barbara Oakley</p>
+        <h2 class="section-title">Learning Techniques</h2>
+        <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
         <ul class="cards">
           <li class="cards__item">
             <img src="images/images_sprint-2/cards-attention.png" alt="Two white hands holding a copy of <i>101 Essays That Will Change the Way You Think</i> by Brianna Wiest." class="cards__image">
@@ -60,11 +60,11 @@
       </section>
 
       <section class="video">
-        <h2 class="section-title section-title_video">TED talks</h2>
-        <p class="section-subtitle section-subtitle_video">For lovers of procrastination</p>
+        <h2 class="section-title">TED talks</h2>
+        <p class="section-subtitle">For lovers of procrastination</p>
         <div class="video__iframes">
-          <iframe id="ytplayer" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen class="video__iframe"></iframe>
-          <iframe id="ytplayer" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen class="video__iframe"></iframe>
+          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen class="video__iframe"></iframe>
+          <iframe src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen class="video__iframe"></iframe>
         </div>
       </section>
 
@@ -135,11 +135,13 @@
       <section class="khan">
         <div class="khan__container">
           <p class="khan__author">Salman Khan</p>
-          <h3 class="khan__title">The One World Schoolhouse</h3>
-          <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <blockquote class="khan__quote">
+            <p>Sal Khan's passion and innovation is transforming learning for millions of
             students worldwide. The One World Schoolhouse is a must-read for all
             who are committed to improving education so students everywhere can
             gain the skills and knowledge to be successful in school, careers and life.</p>
+          </blockquote>
           <p class="khan__quote-author">George Lucas</p>
           <p class="khan__quote-author-subline">Filmmaker</p>
           <div class="khan__book-container">
@@ -194,18 +196,18 @@
             <p class="table__text table__text_theme_dark">Emphasize quantity and speed.</p>
           </li>
         </ol>
-        <img src="images/triangle.svg" alt="Cutout of a blue triangle behind the table." class="kaufman__triangle rotation">
+        <div class="kaufman__triangle rotation"></div>
       </section>
 
       <section class="resources">
         <h2 class="section-title">Useful resources</h2>
         <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
-        <div class="resources__logo-zone">
-          <img src="images/images_sprint-2/logo/resources-tedED.png" alt="Ted-Ed logo" class="resources__logo">
-          <img src="images/images_sprint-2/logo/resources-Medium.png" alt="Medium logo" class="resources__logo">
-          <img src="images/images_sprint-2/logo/resources-dezeen.png" alt="de zeen logo" class="resources__logo">
-          <img src="images/images_sprint-2/logo/resources-goodreads.png" alt="goodreads logo" class="resources__logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="#"><img src="images/images_sprint-2/logo/resources-tedED.png" alt="Ted-Ed logo" class="resources__logo"></a></li>
+          <li><a href="#"><img src="images/images_sprint-2/logo/resources-Medium.png" alt="Medium logo" class="resources__logo"></a></li>
+          <li><a href="#"><img src="images/images_sprint-2/logo/resources-dezeen.png" alt="de zeen logo" class="resources__logo"></a></li>
+          <li><a href="#"><img src="images/images_sprint-2/logo/resources-goodreads.png" alt="goodreads logo" class="resources__logo"></a></li>
+        </ul>
       </section>
     </main>
 

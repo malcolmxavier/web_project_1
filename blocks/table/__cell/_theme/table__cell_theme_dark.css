@@ -1,12 +1,12 @@
-@import url("../__heading/_theme/table__heading_theme_dark");
-
-@import url("../__text/_theme/table__text_theme_dark");
-
 .table__cell_theme_dark {
-  width: 200px;
   color: white;
-  margin-right: 0;
+  width: 200px;
   margin-top: 80px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding: 0px;
   display: flex;
-  flex-wrap: wrap
+  flex-direction: column;
+  flex-wrap: wrap;
 }

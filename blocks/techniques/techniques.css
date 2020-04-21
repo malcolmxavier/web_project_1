@@ -1,13 +1,3 @@
-@import url("../section-title/section-title.css");
-
-@import url("../section-title/_techniques/section-title_techniques.css");
-
-@import url("../section-subtitle/section-subtitle.css");
-
-@import url("../section-subtitle/_techniques/section-subtitle_techniques.css");
-
-@import url("../cards/cards.css");
-
 .techniques {
   display: flex;
   justify-content: center;

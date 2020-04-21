@@ -1,11 +1,12 @@
-@import url("../__heading/table__heading.css");
-
-@import url("../__text/table__text.css");
+@import url("./_theme/table__cell_theme_dark.css");
 
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  margin-left: 0px;
   margin-bottom: 0px;
+  margin-right: 0px;
+  padding: 0px;
   display: flex;
   flex-direction: column;
 }
